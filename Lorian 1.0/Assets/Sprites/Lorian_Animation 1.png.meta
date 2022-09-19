@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: aa7d5c54e7c573745a12bc9eff8cb307
+guid: ae47e14ea6b937d448fb4bafcafac5ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7227746767925449965
-    second: Lorian_Animation_0
+      213: 4782971623040204751
+    second: Lorian_Animation 1_0
   - first:
-      213: -5715449803153899480
-    second: Lorian_Animation_1
+      213: -8228905927275681722
+    second: Lorian_Animation 1_1
   - first:
-      213: -5858926343303979615
-    second: Lorian_Animation_2
+      213: -3519802101857835911
+    second: Lorian_Animation 1_2
   - first:
-      213: 7776094395996130481
-    second: Lorian_Animation_3
+      213: 6694698911328678391
+    second: Lorian_Animation 1_3
   - first:
-      213: -442366423476401183
-    second: Lorian_Animation_4
+      213: -757858451465624461
+    second: Lorian_Animation 1_4
   - first:
-      213: 3975376585680352548
-    second: Lorian_Animation_5
+      213: -9157168647976180407
+    second: Lorian_Animation 1_5
   - first:
-      213: 2533920321463244575
-    second: Lorian_Animation_6
+      213: -7862037398815182974
+    second: Lorian_Animation 1_6
   - first:
-      213: 8614848619657145817
-    second: Lorian_Animation_7
+      213: -6716889989230633201
+    second: Lorian_Animation 1_7
   - first:
-      213: -279381935590793986
-    second: Lorian_Animation_8
+      213: -2998540734053897707
+    second: Lorian_Animation 1_8
   - first:
-      213: -4124900034764879604
-    second: Lorian_Animation_9
+      213: 5228887641946608885
+    second: Lorian_Animation 1_9
   - first:
-      213: 7351781557981486086
-    second: Lorian_Animation_10
+      213: 633135269112919387
+    second: Lorian_Animation 1_10
   - first:
-      213: -3945675659701585612
-    second: Lorian_Animation_11
+      213: 889373275017765066
+    second: Lorian_Animation 1_11
   - first:
-      213: 1327410930269290253
-    second: Lorian_Animation_12
+      213: 2785467700502815347
+    second: Lorian_Animation 1_12
   - first:
-      213: 1859178883222028510
-    second: Lorian_Animation_13
+      213: -8242204465328538289
+    second: Lorian_Animation 1_13
   - first:
-      213: 3714019543710463126
-    second: Lorian_Animation_14
+      213: -2667460996737798777
+    second: Lorian_Animation 1_14
   - first:
-      213: -4395080294339706215
-    second: Lorian_Animation_15
+      213: 1860384953410765929
+    second: Lorian_Animation 1_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lorian_Animation_0
+      name: Lorian_Animation 1_0
       rect:
         serializedVersion: 2
         x: 25
@@ -153,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de49ca4246d1e4460800000000000000
-      internalID: 7227746767925449965
+      spriteID: fcfb5129957806240800000000000000
+      internalID: 4782971623040204751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_1
+      name: Lorian_Animation 1_1
       rect:
         serializedVersion: 2
         x: 119
@@ -174,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8208f6f8fa4aea0b0800000000000000
-      internalID: -5715449803153899480
+      spriteID: 64860a268ad0dcd80800000000000000
+      internalID: -8228905927275681722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_2
+      name: Lorian_Animation 1_2
       rect:
         serializedVersion: 2
         x: 217
@@ -195,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ad103e5889e0bea0800000000000000
-      internalID: -5858926343303979615
+      spriteID: 974271713a6272fc0800000000000000
+      internalID: -3519802101857835911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_3
+      name: Lorian_Animation 1_3
       rect:
         serializedVersion: 2
         x: 313
@@ -216,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bc414557ac3aeb60800000000000000
-      internalID: 7776094395996130481
+      spriteID: 7f1b0f7903958ec50800000000000000
+      internalID: 6694698911328678391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_4
+      name: Lorian_Animation 1_4
       rect:
         serializedVersion: 2
         x: 25
@@ -237,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eb0124e4166cd9f0800000000000000
-      internalID: -442366423476401183
+      spriteID: 3742d52f0cb8b75f0800000000000000
+      internalID: -757858451465624461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_5
+      name: Lorian_Animation 1_5
       rect:
         serializedVersion: 2
         x: 122
@@ -258,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 425f1e531ff5b2730800000000000000
-      internalID: 3975376585680352548
+      spriteID: 9452905a1a33be080800000000000000
+      internalID: -9157168647976180407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_6
+      name: Lorian_Animation 1_6
       rect:
         serializedVersion: 2
         x: 218
@@ -279,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f17d5f96b1b4a2320800000000000000
-      internalID: 2533920321463244575
+      spriteID: 28fe8c004ae64e290800000000000000
+      internalID: -7862037398815182974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_7
+      name: Lorian_Animation 1_7
       rect:
         serializedVersion: 2
         x: 315
@@ -300,19 +300,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ddad681d271e8770800000000000000
-      internalID: 8614848619657145817
+      spriteID: f0fd7847420d8c2a0800000000000000
+      internalID: -6716889989230633201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_8
+      name: Lorian_Animation 1_8
       rect:
         serializedVersion: 2
-        x: 13
+        x: 15
         y: 186
-        width: 63
+        width: 56
         height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -321,14 +321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efc137c1c9f6f1cf0800000000000000
-      internalID: -279381935590793986
+      spriteID: 51aad2ed61b0366d0800000000000000
+      internalID: -2998540734053897707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_9
+      name: Lorian_Animation 1_9
       rect:
         serializedVersion: 2
         x: 105
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c09c7d5e54961c6c0800000000000000
-      internalID: -4124900034764879604
+      spriteID: 5f458a44b9db09840800000000000000
+      internalID: 5228887641946608885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_10
+      name: Lorian_Animation 1_10
       rect:
         serializedVersion: 2
         x: 202
@@ -363,14 +363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60c11c52066c60660800000000000000
-      internalID: 7351781557981486086
+      spriteID: b553f3a3c2959c800800000000000000
+      internalID: 633135269112919387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_11
+      name: Lorian_Animation 1_11
       rect:
         serializedVersion: 2
         x: 298
@@ -384,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 439f49084e42e39c0800000000000000
-      internalID: -3945675659701585612
+      spriteID: ac0e8221840b75c00800000000000000
+      internalID: 889373275017765066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_12
+      name: Lorian_Animation 1_12
       rect:
         serializedVersion: 2
         x: 22
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0ffba94539eb6210800000000000000
-      internalID: 1327410930269290253
+      spriteID: 3726bc59d18f7a620800000000000000
+      internalID: 2785467700502815347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_13
+      name: Lorian_Animation 1_13
       rect:
         serializedVersion: 2
         x: 120
@@ -426,14 +426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed04b5c08512dc910800000000000000
-      internalID: 1859178883222028510
+      spriteID: f4d34f535becd9d80800000000000000
+      internalID: -8242204465328538289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_14
+      name: Lorian_Animation 1_14
       rect:
         serializedVersion: 2
         x: 218
@@ -447,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69478b7e819da8330800000000000000
-      internalID: 3714019543710463126
+      spriteID: 78deb353b564bfad0800000000000000
+      internalID: -2667460996737798777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lorian_Animation_15
+      name: Lorian_Animation 1_15
       rect:
         serializedVersion: 2
         x: 312
@@ -468,8 +468,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 992009822c98103c0800000000000000
-      internalID: -4395080294339706215
+      spriteID: 964c785224a61d910800000000000000
+      internalID: 1860384953410765929
       vertices: []
       indices: 
       edges: []

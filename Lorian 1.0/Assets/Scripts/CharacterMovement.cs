@@ -4,30 +4,47 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    public float moveSpeed, moveTimer, coolDown;
-    public GameObject movableObject;
-    public Transform actionDirection;
-    private Rigidbody2D rb2D;
+    public float moveSpeed;
+    private Rigidbody2D myRigidBody2D;
+    private Animator anim;
     Vector2 movement;
 
     void Start()
     {
-        rb2D = GetComponent<Rigidbody2D>();
+        myRigidBody2D = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
+        movement = Vector2.zero;
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
         movement = movement.normalized;
+
+        AnimationUpdate();
     }
 
     private void FixedUpdate()
     {
-        rb2D.MovePosition(rb2D.position + movement * moveSpeed * Time.fixedDeltaTime);
+        myRigidBody2D.MovePosition(myRigidBody2D.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void AnimationUpdate()
+    {
+        if (movement != Vector2.zero)
+        {
+            anim.SetFloat("moveX", movement.x);
+            anim.SetFloat("moveY", movement.y);
+            anim.SetBool("moving", true);
+        }
+        else
+        {
+            anim.SetBool("moving", false);
+        }
+    }
+
+    /*private void OnCollisionEnter2D(Collision2D collision)
     {
         moveTimer += Time.deltaTime;
 
@@ -37,9 +54,5 @@ public class CharacterMovement : MonoBehaviour
         {
 
         }
-    }
-    void MovingObject()
-    {
-
-    }
+    }*/
 }

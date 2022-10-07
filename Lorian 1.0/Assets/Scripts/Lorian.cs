@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMovement : MonoBehaviour
+public class Lorian : MonoBehaviour
 {
     public float moveSpeed;
     private Rigidbody2D myRigidBody2D;
     private Animator anim;
     Vector2 movement;
-
+    public int sword;
     void Start()
     {
         myRigidBody2D = GetComponent<Rigidbody2D>();
@@ -42,17 +42,15 @@ public class CharacterMovement : MonoBehaviour
         {
             anim.SetBool("moving", false);
         }
+
+        if (Input.GetButtonDown("Fire1") && sword != 0)
+        {
+            anim.SetTrigger("OnAttack");
+        }
     }
 
-    /*private void OnCollisionEnter2D(Collision2D collision)
+    public void TakeSword(int num)
     {
-        moveTimer += Time.deltaTime;
-
-        MovableObject obj = collision.gameObject.GetComponent<MovableObject>();
-
-        if (obj)
-        {
-
-        }
-    }*/
+        sword += num;
+    }
 }

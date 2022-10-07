@@ -24,7 +24,6 @@ public class Button : MonoBehaviour
             bridgeActive.SetActive(true);
             lightActive.SetActive(true);
         }
-
     }
 
     private void OnTriggerExit2D(Collider2D notPushing)

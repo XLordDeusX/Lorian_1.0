@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MovableObject : MonoBehaviour
 {
-    public float moveSpeed;
+    public int moveSpeed;
     private Rigidbody2D objectRB;
     Vector2 objectMovement;
     void Start()
@@ -13,6 +13,6 @@ public class MovableObject : MonoBehaviour
     }
     void FixedUpdate()
     {
-        objectRB.MovePosition(objectRB.position + objectMovement * moveSpeed * Time.fixedDeltaTime);
+        objectRB.MovePosition(objectRB.position + objectMovement);
     }
 }

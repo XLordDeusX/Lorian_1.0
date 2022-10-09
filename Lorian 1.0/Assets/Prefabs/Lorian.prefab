@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 4410745162323783242}
   - component: {fileID: 4410745162323783255}
   - component: {fileID: 4410745162323783252}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lorian
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 7
+  sword: 0
 --- !u!50 &4410745162323783253
 Rigidbody2D:
   serializedVersion: 4
@@ -64,7 +65,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 07353b549214a594badb6883c1fd64b5, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -134,7 +135,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1948456135516571386, guid: 33294cdd8b85e334a82dadee095c46cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

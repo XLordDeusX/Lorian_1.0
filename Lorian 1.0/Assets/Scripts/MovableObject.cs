@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MovableObject : MonoBehaviour
 {
-    public int moveSpeed;
     private Rigidbody2D objectRB;
     Vector2 objectMovement;
     void Start()

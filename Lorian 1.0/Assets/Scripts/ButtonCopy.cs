@@ -2,19 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Button : MonoBehaviour
+public class ButtonCopy : MonoBehaviour
 {
-    public GameObject bridgeActive, 
+    public GameObject buttonActive,
+                      buttonInactive,
+                      bridgeActive, 
                       bridgeInactive,
                       lightActive,
                       lightInactive;
-
-    private Animator buttonAnimation;
-
-    void Start()
-    {
-        buttonAnimation = GetComponent<Animator>();
-    }
 
     private void OnTriggerEnter2D(Collider2D pushing)
     {
@@ -22,9 +17,10 @@ public class Button : MonoBehaviour
 
         if(statueOnButton != null)
         {
-            buttonAnimation.SetBool("Pushed", true);
+            buttonInactive.SetActive(false);
             bridgeInactive.SetActive(false);
             lightInactive.SetActive(false);
+            buttonActive.SetActive(true);
             bridgeActive.SetActive(true);
             lightActive.SetActive(true);
         }
@@ -36,9 +32,10 @@ public class Button : MonoBehaviour
 
         if(statueAway != null)
         {
-            buttonAnimation.SetBool("Pushed", false);
+            buttonInactive.SetActive(true);
             bridgeInactive.SetActive(true);
             lightInactive.SetActive(true);
+            buttonActive.SetActive(false);
             bridgeActive.SetActive(false);
             lightActive.SetActive(false);
         }

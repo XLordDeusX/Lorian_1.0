@@ -11,16 +11,24 @@ public class Button : MonoBehaviour
                       lightActive,
                       lightInactive;
 
+    private Animator buttonAnimation;
+
+    void Start()
+    {
+        buttonAnimation = GetComponent<Animator>();
+    }
+
     private void OnTriggerEnter2D(Collider2D pushing)
     {
         MovableObject statueOnButton = pushing.GetComponent<MovableObject>();
 
         if(statueOnButton != null)
         {
-            buttonInactive.SetActive(false);
+            buttonAnimation.SetBool("Pushed", true);
+            //buttonInactive.SetActive(false);
             bridgeInactive.SetActive(false);
             lightInactive.SetActive(false);
-            buttonActive.SetActive(true);
+            //buttonActive.SetActive(true);
             bridgeActive.SetActive(true);
             lightActive.SetActive(true);
         }
@@ -32,10 +40,11 @@ public class Button : MonoBehaviour
 
         if(statueAway != null)
         {
-            buttonInactive.SetActive(true);
+            buttonAnimation.SetBool("Pushed", false);
+            //buttonInactive.SetActive(true);
             bridgeInactive.SetActive(true);
             lightInactive.SetActive(true);
-            buttonActive.SetActive(false);
+            //buttonActive.SetActive(false);
             bridgeActive.SetActive(false);
             lightActive.SetActive(false);
         }

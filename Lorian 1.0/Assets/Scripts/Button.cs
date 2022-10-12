@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
-    public GameObject bridgeActive, 
-                      bridgeInactive,
-                      lightActive,
-                      lightInactive;
 
     private Animator buttonAnimation;
 
@@ -23,10 +19,8 @@ public class Button : MonoBehaviour
         if(statueOnButton != null)
         {
             buttonAnimation.SetBool("Pushed", true);
-            bridgeInactive.SetActive(false);
-            lightInactive.SetActive(false);
-            bridgeActive.SetActive(true);
-            lightActive.SetActive(true);
+            GameManager.instance.buttons.Add(this);
+            GameManager.instance.StateOn();
         }
     }
 
@@ -37,10 +31,10 @@ public class Button : MonoBehaviour
         if(statueAway != null)
         {
             buttonAnimation.SetBool("Pushed", false);
-            bridgeInactive.SetActive(true);
-            lightInactive.SetActive(true);
-            bridgeActive.SetActive(false);
-            lightActive.SetActive(false);
+            GameManager.instance.buttons.Remove(this);
+            GameManager.instance.StateOff();
         }
+
+        
     }
 }

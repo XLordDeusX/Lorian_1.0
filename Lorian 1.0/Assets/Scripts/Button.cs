@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
-
     private Animator buttonAnimation;
 
     void Start()
@@ -19,7 +18,26 @@ public class Button : MonoBehaviour
         if(statueOnButton != null)
         {
             buttonAnimation.SetBool("Pushed", true);
-            GameManager.instance.buttons.Add(this);
+
+            switch (gameObject.tag)
+            {
+                case "YellowButton":
+                    GameManager.instance.yellowButtons.Add(this);
+                    break;
+
+                case "BlueButton":
+                    GameManager.instance.blueButtons.Add(this);
+                    break;
+
+                case "GreenButton":
+                    GameManager.instance.greenButtons.Add(this);
+                    break;
+
+                case "RedButton":
+                    GameManager.instance.redButtons.Add(this);
+                    break;
+            }
+
             GameManager.instance.StateOn();
         }
     }
@@ -31,10 +49,27 @@ public class Button : MonoBehaviour
         if(statueAway != null)
         {
             buttonAnimation.SetBool("Pushed", false);
-            GameManager.instance.buttons.Remove(this);
+
+            switch (gameObject.tag)
+            {
+                case "YellowButton":
+                    GameManager.instance.yellowButtons.Remove(this);
+                    break;
+
+                case "BlueButton":
+                    GameManager.instance.blueButtons.Remove(this);
+                    break;
+
+                case "GreenButton":
+                    GameManager.instance.greenButtons.Remove(this);
+                    break;
+
+                case "RedButton":
+                    GameManager.instance.redButtons.Remove(this);
+                    break;
+            }
+
             GameManager.instance.StateOff();
         }
-
-        
     }
 }

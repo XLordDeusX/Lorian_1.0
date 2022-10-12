@@ -22,7 +22,10 @@ public class GameManager : MonoBehaviour
                       redLightActive,
                       redLightInactive;
 
-    public List<Button> buttons = new List<Button>();
+    public List<Button> yellowButtons = new List<Button>();
+    public List<Button> blueButtons = new List<Button>();
+    public List<Button> greenButtons = new List<Button>();
+    public List<Button> redButtons = new List<Button>();
 
     private void Awake()
     {
@@ -31,26 +34,71 @@ public class GameManager : MonoBehaviour
 
     public void StateOn()
     {
-        buttons.
-        if(buttons.Count > 0)
+        if(yellowButtons.Count > 0)
         {
             yellowBridgeInactive.SetActive(false);
             yellowLightInactive.SetActive(false);
             yellowBridgeActive.SetActive(true);
             yellowLightActive.SetActive(true);
         }
+
+        if(blueButtons.Count > 0)
+        {
+            blueBridgeInactive.SetActive(false);
+            blueLightInactive.SetActive(false);
+            blueBridgeActive.SetActive(true);
+            blueLightActive.SetActive(true);
+        }
+
+        if(greenButtons.Count > 0)
+        {
+            greenBridgeInactive.SetActive(false);
+            greenLightInactive.SetActive(false);
+            greenBridgeActive.SetActive(true);
+            greenLightActive.SetActive(true);
+        }
         
+        if(redButtons.Count > 0)
+        {
+            redBridgeInactive.SetActive(false);
+            redLightInactive.SetActive(false);
+            redBridgeActive.SetActive(true);
+            redLightActive.SetActive(true);
+        }
     }
 
     public void StateOff()
     {
-        if (buttons.Count < 1 && buttons.Count.)
+        if (yellowButtons.Count < 1)
         {
             yellowBridgeInactive.SetActive(true);
             yellowLightInactive.SetActive(true);
             yellowBridgeActive.SetActive(false);
             yellowLightActive.SetActive(false);
         }
+
+        if(blueButtons.Count < 1)
+        {
+            blueBridgeInactive.SetActive(true);
+            blueLightInactive.SetActive(true);
+            blueBridgeActive.SetActive(false);
+            blueLightActive.SetActive(false);
+        }
         
+        if(greenButtons.Count < 1)
+        {
+            greenBridgeInactive.SetActive(true);
+            greenLightInactive.SetActive(true);
+            greenBridgeActive.SetActive(false);
+            greenLightActive.SetActive(false);
+        }
+
+        if(redButtons.Count < 1)
+        {
+            redBridgeInactive.SetActive(true);
+            redLightInactive.SetActive(true);
+            redBridgeActive.SetActive(false);
+            redLightActive.SetActive(false);
+        }
     }
 }

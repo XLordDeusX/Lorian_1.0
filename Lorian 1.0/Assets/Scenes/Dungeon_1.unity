@@ -3673,7 +3673,10 @@ MonoBehaviour:
   redBridgeInactive: {fileID: 21823241}
   redLightActive: {fileID: 1467034865}
   redLightInactive: {fileID: 1770700114}
-  buttons: []
+  yellowButtons: []
+  blueButtons: []
+  greenButtons: []
+  redButtons: []
 --- !u!4 &474978765
 Transform:
   m_ObjectHideFlags: 0
@@ -7799,11 +7802,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4410745162323783243, guid: e298cae826e5f5d44beefa274bd40361, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.9
+      value: 19.7
       objectReference: {fileID: 0}
     - target: {fileID: 4410745162323783243, guid: e298cae826e5f5d44beefa274bd40361, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.8
+      value: 10.2
       objectReference: {fileID: 0}
     - target: {fileID: 4410745162323783243, guid: e298cae826e5f5d44beefa274bd40361, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14147,7 +14150,6 @@ GameObject:
   - component: {fileID: 1811938147}
   - component: {fileID: 1811938146}
   - component: {fileID: 1811938145}
-  - component: {fileID: 1811938149}
   m_Layer: 0
   m_Name: Second Camera
   m_TagString: MainCamera
@@ -14168,7 +14170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1965863122}
-  smoothing: 0.1
+  smoothing: 0.5
   maxPosition: {x: 21.5, y: 14}
   minPosition: {x: 18.5, y: 6.15}
 --- !u!81 &1811938146
@@ -14236,35 +14238,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1811938149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1811938144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70e09f053d5b1cb498773492adc224ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  yellowBridgeActive: {fileID: 0}
-  yellowBridgeInactive: {fileID: 0}
-  yellowLightActive: {fileID: 0}
-  yellowLightInactive: {fileID: 0}
-  blueBridgeActive: {fileID: 0}
-  blueBridgeInactive: {fileID: 0}
-  blueLightActive: {fileID: 0}
-  blueLightInactive: {fileID: 0}
-  greenBridgeActive: {fileID: 0}
-  greenBridgeInactive: {fileID: 0}
-  greenLightActive: {fileID: 0}
-  greenLightInactive: {fileID: 0}
-  redBridgeActive: {fileID: 0}
-  redBridgeInactive: {fileID: 0}
-  redLightActive: {fileID: 0}
-  redLightInactive: {fileID: 0}
-  buttons: []
 --- !u!1 &1819700029
 GameObject:
   m_ObjectHideFlags: 0
@@ -15342,7 +15315,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968644288}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.78, y: 0.08, z: 55.97596}
+  m_LocalPosition: {x: 3.78, y: 2.8, z: 55.97596}
   m_LocalScale: {x: 1.1798999, y: 1.1798999, z: 0.7866}
   m_Children: []
   m_Father: {fileID: 590507845}
